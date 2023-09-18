@@ -1,0 +1,253 @@
+.container{
+    background-color: slategrey;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   background-color: cadetblue;
+   position: fixed;
+   width: 100%;
+   top: 0px;
+}
+.pic-logo{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 50px;
+    height: 40px;
+}
+#my-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+#my-logo{ 
+    font-size: 40px;
+}
+.link{
+    width: 50%;
+    height: 40px;
+    margin-top:20px ;
+}
+.link a{
+    text-decoration: none;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-right: px;
+    font-size: 30px;
+    align-items: center;
+    
+}
+.big-division{
+    background-color: rgb(58, 139, 58);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+   margin: auto;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.big-division a{
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 21px;
+}
+.combined-division{
+    display: flex;
+    align-items: center;
+    background-color: rgb(161, 221, 161);
+}
+.first-division{
+    height: 400px;
+    width: 300px;
+    background: gray;
+    margin: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.second-division{
+    height: 400px;
+    width: 290px;
+    background: gray;
+    margin: 20px;
+    font-size: 25px;
+}
+.third-division{
+    height: 400px;
+    width: 300px;
+    background: gray;
+    margin: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.images{
+    display: flex;
+
+}
+.division-image{
+    height: 245px;
+    width: 500pxpx;
+    margin-left: 2px;
+}
+.division2-intro{
+    height: 280px;
+    width: 500pxpx;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.first-division img{
+    height: 200px;
+    width: 300px;
+}
+.second-division img{
+    height: 200px;
+    width: 290px;
+}
+.third-division img{
+    height: 200px;
+    width: 300px;
+}
+#how{
+    text-decoration: underline;
+    color: rgb(12, 2, 22);
+}
+#last-division{
+    height: 400px;
+    width: 500px;
+    background: black;
+    margin: auto;
+
+}
+.more-body{
+    margin-top: 55px;
+    margin-right: 100px;
+}
+.contacts{
+    margin-top: 55px;
+}
+.sign-up-body{
+    margin-top: 75px;
+    width: 50%;
+   font-size:20px;
+   font-weight:bolder;
+   border: 5px solid rgb(31, 30, 30);
+   border-radius:10px;
+   background-color:rgb(31, 30, 30);
+   color:skyblue;
+   margin-left:100px;
+}
+.response{
+    margin-top: 55px;
+}
+.last-division{
+    display: flex;
+    margin: auto;
+    background-color: rgb(15, 14, 14);
+    color: white;
+   border-bottom:0px;
+}
+.div-part1{
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+    margin: auto;
+    
+}
+.login{
+    margin: auto;
+    background-color: rgb(31, 30, 30);
+    margin-top: 70px;
+    width: 50%;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.product-intro{
+    display:flex;
+    font-size: 20px;
+}
+.product{
+    width: 25%;
+    height: 255px;
+    margin-left: 10px;
+    margin-right: 39px;
+    border: 1ps solid gray;
+    border-radius: 5px;
+    background-color: rgb(179, 178, 178);
+}
+.product-body{
+    background-color: rgb(161, 221, 161);
+    margin-top:55px;
+    border:2px solid gold;
+    border-radius:5px;
+    margin-left:50px;
+    margin-right:50px;
+    padding-left:100px;
+}
+#sign-up-response{
+    background-color:  rgb(31, 30, 30);
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top:200px;
+    color:white;
+}
+.last-division-contact{
+    display: flex;
+    margin: auto;
+    background-color: rgb(15, 14, 14);
+    color: white;
+   border-bottom:0px;
+   margin-top:60px;
+} 
+#signup-btn{
+  background:blue;
+  border-radius:10px;
+  font-weight:bolder;
+  margin-left:200px;
+  margin-top:10px;
+}  
+#login-btn{
+ background:skyblue;
+ font-weight:bolder;
+ width:90px;
+ margin-left:100x;
+  margin-top:5px;
+ border-radius:5px;
+ }
+#forget-password{
+
+background:skyblue;
+ font-weight:bolder;
+ width:180px;
+ margin-left:20px;
+  margin-top:5px;
+ border-radius:5px;
+}
+.form-container{
+    display: flex;
+}
+.input{
+    margin-left: 5px;
+    width: 200px;
+}
+.login-container{
+    display: flex;
+}
+
+
+
